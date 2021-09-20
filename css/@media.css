@@ -1,0 +1,227 @@
+         /* @media screen  navbar */
+         
+         @media screen and (max-width:950px) and (min-width:600px) {
+             nav .parent-nav {
+                 padding: 0.5rem;
+                 justify-content: space-between;
+             }
+             nav .logo {
+                 width: 10%;
+             }
+             nav .logo a {
+                 font-size: 1.4rem;
+             }
+             nav .nav-list {
+                 width: 80%;
+             }
+         }
+         
+         @media screen and (max-width:600px) {
+             nav .parent-nav {
+                 padding: 0.5rem;
+                 justify-content: space-between;
+             }
+             nav .logo {
+                 width: 4%;
+                 margin-top: -10rem;
+             }
+             nav .logo a {
+                 font-size: 1.1rem;
+             }
+             nav .nav-list {
+                 width: 30%;
+             }
+             nav .nav-list ul {
+                 flex-direction: column;
+             }
+             nav .nav-list ul li {
+                 padding-top: .7rem;
+             }
+         }
+         /* @media screen header */
+         
+         @media screen and (max-width:750px) {
+             .item-header h5 {
+                 font-size: 1.3rem;
+             }
+             .item-header h1 {
+                 font-size: 2.3rem;
+             }
+             .item-header h5 {
+                 font-size: 1.125rem;
+             }
+         }
+         /* @media screen  section   About   */
+         
+         @media screen and (max-width:1140px) {
+             .boder-img::after {
+                 display: none;
+             }
+             .capction-img ul li i {
+                 padding: 0.62rem;
+                 color: white;
+                 font-size: 1.1rem;
+             }
+         }
+         
+         @media screen and (max-width:700px) {
+             .boder-img {
+                 width: 50%;
+             }
+             .container {
+                 width: 80%;
+             }
+             .caption-ab {
+                 width: 30%;
+             }
+         }
+         
+         @media screen and (max-width:600px) {
+             .parent-s1 {
+                 flex-wrap: wrap;
+             }
+             .boder-img {
+                 width: 80%;
+                 margin-bottom: 3.2rem;
+             }
+             .caption-ab {
+                 flex-wrap: wrap;
+             }
+             .caption-ab h3 {
+                 margin-bottom: 1rem;
+                 font-size: 1rem;
+             }
+             .btn {
+                 background-color: #EC2403;
+                 color: white;
+                 padding: 0.1rem;
+                 border-radius: 4px;
+                 margin: 1px;
+             }
+         }
+         /* @media screen  section   Services  item
+          */
+         
+         @media screen and (max-width: 990px) {
+             .items-se {
+                 flex-wrap: wrap;
+             }
+             .item-servi {
+                 width: 50%;
+             }
+         }
+         
+         @media screen and (max-width: 650px) {
+             .items-se {
+                 flex-wrap: wrap;
+             }
+             .item-servi {
+                 width: 100%;
+             }
+             .container {
+                 width: 100%;
+             }
+         }
+         /* @media screen    section   Portfolio   */
+         
+         @media screen and (max-width: 1050px) {
+             .nav-scetion {
+                 width: 60%;
+             }
+         }
+         
+         @media screen and (max-width: 740px) {
+             .nav-scetion {
+                 width: 80%;
+             }
+             .item-Por {
+                 width: 50%;
+             }
+         }
+         
+         @media screen and (max-width: 600px) {
+             .nav-scetion {
+                 width: 100%;
+             }
+             .item-Por {
+                 width: 100%;
+             }
+         }
+         /* @media screen    section   view   */
+         
+         @media screen and (max-width: 600px) {
+             .item-view {
+                 width: 100%;
+             }
+         }
+         /* @media screen    section   client   */
+         
+         @media screen and (max-width: 750px) {
+             .client {
+                 flex-direction: column;
+                 align-items: center;
+                 width: 500px;
+             }
+         }
+         /* @media screen    section   Bloge   */
+         
+         @media screen and (max-width: 1240px) {
+             iframe {
+                 height: 180px;
+             }
+         }
+         
+         @media screen and (max-width: 1050px) {
+             iframe {
+                 height: 160px;
+             }
+         }
+         
+         @media screen and (max-width: 950px) and (min-width:780px) {
+             iframe {
+                 height: 140px;
+             }
+         }
+         
+         @media screen and (max-width: 800px) {
+             .parent-blog {
+                 flex-wrap: wrap;
+             }
+             .item-blog {
+                 padding: 1rem;
+                 width: 100%;
+             }
+             iframe {
+                 height: 270px;
+             }
+         }
+         /* @media screen    section   Conracct us   */
+         
+         @media screen and (max-width: 650px) {
+             .parent-for {
+                 flex-direction: column;
+                 align-items: center;
+             }
+             .in-1,
+             .in-2 {
+                 width: 100%;
+             }
+         }
+         /* @media screen    section   Footer   */
+         
+         @media screen and (max-width: 850px) {
+             .icon-fooot {
+                 width: 40%;
+                 justify-content: space-around;
+             }
+         }
+         
+         @media screen and (max-width: 600px) {
+             .icon-fooot {
+                 width: 60%;
+                 justify-content: space-around;
+             }
+             .parent-foot {
+                 padding: 1rem;
+             }
+         }
